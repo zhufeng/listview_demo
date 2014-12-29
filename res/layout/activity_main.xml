@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ListView使用示例"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnArray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show ArrayAdapter" />
+
+    <Button
+        android:id="@+id/btnSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show SimpleAdapter" />
+
+    <Button
+        android:id="@+id/btnSimpleCursor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show SimpleCursorAdapter" />
+
+</LinearLayout>
